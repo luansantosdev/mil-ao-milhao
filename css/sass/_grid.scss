@@ -1,0 +1,61 @@
+.grid-journey {
+  max-width: $container-xl;
+  display: grid;
+  grid-gap: 12px;
+  grid-template-areas:
+    "a b c d"
+    "e f g h"
+    "e i j h";
+  margin-left: 48px;
+
+  @include responsive(s) {
+    grid-template-areas:
+      "a b "
+      "c d"
+      "e f"
+      "g h"
+      "i j";
+    grid-gap: 8px;
+    margin-left: 24px;
+  }
+}
+
+.grid-journey-a {
+  grid-area: a;
+}
+
+.grid-journey-b {
+  grid-area: b;
+}
+
+.grid-journey-c {
+  grid-area: c;
+}
+
+.grid-journey-d {
+  grid-area: d;
+}
+
+.grid-journey-e {
+  grid-area: e;
+}
+
+.grid-journey-f {
+  grid-area: f;
+}
+
+.grid-journey-g {
+  grid-area: g;
+}
+
+.grid-journey-h {
+  grid-area: h;
+}
+
+.grid-journey-i {
+  grid-area: i;
+}
+
+.grid-journey-j {
+  grid-area: j;
+}

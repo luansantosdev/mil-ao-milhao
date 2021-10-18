@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@import "sass/colors";
+@import "sass/layout";
+@import "sass/typography";
+@import "sass/buttons";
+@import "sass/spacing";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  scroll-behavior: smooth;
+
+  background-color: $gray-1;
+  background-image: url(../img/img-bg.png);
+  background-repeat: no-repeat;
+}
+
+@import "sass/header";
+@import "sass/icons";
+@import "sass/grid";
+@import "sass/modal";
+@import "sass/footer";

@@ -1,0 +1,127 @@
+.btn {
+  width: 592px;
+  align-items: center;
+  background-color: #49b0b0;
+  border-radius: 8px;
+  padding: 16px 32px;
+  transition: 0.3s ease;
+  color: #ffff;
+  @include typeface-1(h4, desktop);
+
+  box-shadow: 0 0 40px rgba(73, 176, 176, 0.5);
+
+  &:hover {
+    transform: scale(1.02);
+    background-color: $gray-1;
+    border: 1px solid $red;
+    color: $salmon;
+
+    box-shadow: 0 0 40px rgba(73, 176, 176, 0.5);
+  }
+
+  @include responsive(s) {
+    @include typeface-1(h4, mobile);
+    width: 327px;
+  }
+}
+
+.btn-2 {
+  width: 592px;
+  align-items: center;
+
+  background-color: $gray-1;
+  border-radius: 8px;
+  border: 1px solid $yellow-1;
+  padding: 16px 32px;
+  transition: 0.3s ease;
+  color: $yellow-1;
+  @include typeface-1(h4, desktop);
+
+  box-shadow: 0 0 40px rgba(191, 164, 126, 0.5);
+
+  &:hover {
+    transform: scale(1.02);
+    background-color: rgba(191, 164, 126, 0.7);
+    color: $gray-1;
+
+    box-shadow: 0 0 50px rgba(191, 164, 126, 0.445);
+  }
+
+  @include responsive(s) {
+    @include typeface-1(h4, mobile);
+    width: 327px;
+  }
+}
+
+.btn-3 {
+  width: 592px;
+  align-items: center;
+
+  background-color: rgb(191, 164, 126);
+  border-radius: 8px;
+  padding: 16px 32px;
+  transition: 0.3s ease;
+  color: $gray-1;
+  @include typeface-1(h4, desktop);
+
+  box-shadow: 0 0 30px rgba(252, 227, 193, 0.377);
+
+  &:hover {
+    transform: scale(1.02);
+    background-color: $gray-1;
+    color: $yellow-1;
+    border: 1px solid $yellow-1;
+
+    box-shadow: none;
+  }
+
+  @include responsive(s) {
+    @include typeface-1(h4, mobile);
+    width: 327px;
+  }
+}
+
+.btn-4 {
+  width: 381px;
+  height: 50px;
+
+  background-color: $yellow-2;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: 0.3s ease;
+  color: $gray-1;
+  @include typeface-1(h4, desktop);
+
+  box-shadow: none;
+
+  &:hover {
+    background-color: $gray-1;
+    color: $yellow-1;
+    border: 1px solid $yellow-1;
+
+    box-shadow: none;
+  }
+}
+
+.btn-5 {
+  width: 100%;
+  align-items: center;
+
+  background-color: rgb(191, 164, 126);
+  border-radius: 8px;
+  padding: 16px 32px;
+  transition: 0.3s ease;
+  color: $gray-1;
+  @include typeface-1(h4, desktop);
+
+  box-shadow: none;
+
+  &:hover {
+    transform: scale(1.02);
+    background-color: $gray-1;
+    color: $yellow-1;
+    border: 1px solid $yellow-1;
+
+    box-shadow: none;
+  }
+}

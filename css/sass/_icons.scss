@@ -1,0 +1,16 @@
+.img-nigro-1 {
+  width: 70%;
+
+  @include responsive(s) {
+    width: 110%;
+  }
+}
+
+.img-nigro-2 {
+  width: 110%;
+
+  @include responsive(s) {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
